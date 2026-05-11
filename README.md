@@ -39,10 +39,10 @@ Prayer requests are stored in `localStorage` for the prototype.
 
 ## Deploy Free With GitHub + Vercel
 
-1. Create a new GitHub repository named `party-script-landing`.
+1. Create or use the GitHub repository `Church-of-Glory-and-Grace`.
 2. Push this project to the GitHub repo.
 3. Go to `https://vercel.com/new`.
-4. Import the `party-script-landing` repository.
+4. Import the `Church-of-Glory-and-Grace` repository.
 5. Framework preset: `Next.js`.
 6. Build command: `npm run build`.
 7. Install command: `npm install`.
