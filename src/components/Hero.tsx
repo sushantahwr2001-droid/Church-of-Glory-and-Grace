@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate flex min-h-[92svh] items-center overflow-hidden px-5 pb-20 pt-24 sm:min-h-screen sm:px-10 sm:pb-24 lg:px-20 lg:pt-24"
+      className="relative isolate flex min-h-[88svh] items-center overflow-hidden px-5 pb-16 pt-20 sm:min-h-screen sm:px-10 sm:pb-20 lg:px-20 lg:pt-20"
     >
       <picture className="absolute inset-0 -z-30">
         <source media="(max-width: 767px)" srcSet="/assets/hero-light-of-hope-mobile.jpg" />
@@ -23,30 +23,30 @@ export function Hero() {
       <div className="mx-auto flex w-full max-w-7xl items-center">
         <Reveal>
           <div className="max-w-[45rem]">
-            <p className="mb-4 max-w-[22rem] text-[clamp(1.9rem,9vw,3.2rem)] font-bold leading-[1.08] text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.8)] sm:mb-6 sm:max-w-[38rem] sm:text-[clamp(2.1rem,4vw,4rem)]">
+            <p className="mb-3 whitespace-nowrap text-[clamp(1.45rem,6.4vw,3rem)] font-bold leading-[1.1] text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.8)] sm:mb-5 sm:text-[clamp(2rem,3.4vw,3.4rem)]">
               Church of Glory and Grace
             </p>
-            <h1 className="text-[clamp(2.45rem,10vw,4rem)] font-semibold leading-[1.03] text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.75)] sm:text-[clamp(3rem,5.4vw,5.8rem)]">
+            <h1 className="max-w-[42rem] text-[clamp(2.25rem,8.7vw,3.6rem)] font-semibold leading-[1.06] text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.75)] sm:text-[clamp(2.8rem,4.7vw,4.8rem)]">
               Spreading God&apos;s
               <span className="block">
                 Love. <span className="text-gold">Changing Lives.</span>
               </span>
             </h1>
-            <p className="mt-5 max-w-[21rem] text-base font-semibold leading-7 text-[#efe7d9] drop-shadow-[0_2px_3px_rgba(0,0,0,0.82)] sm:mt-8 sm:max-w-[31rem] sm:text-xl sm:leading-8">
-              We are on a mission to bring hope, faith, and love to every heart and every home.
+            <p className="mt-4 max-w-[22rem] text-[15px] font-medium leading-7 text-[#efe7d9] drop-shadow-[0_2px_3px_rgba(0,0,0,0.82)] sm:mt-6 sm:max-w-[36rem] sm:text-lg">
+              Prayer, support, and care for every family in need.
             </p>
 
             <div className="mt-7 grid gap-3 sm:mt-10 sm:flex sm:gap-4">
               <a
                 href="#about"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-[7px] bg-gold px-6 py-3 text-sm font-bold uppercase tracking-[0.08em] text-[#241303] shadow-[0_16px_35px_rgba(217,162,58,0.22)] transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft sm:min-h-14 sm:px-8 sm:py-4"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-[7px] bg-gold px-6 py-3 text-sm font-semibold text-[#241303] shadow-[0_16px_35px_rgba(217,162,58,0.22)] transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft sm:min-h-[3.25rem] sm:px-8 sm:py-4"
               >
                 Our Mission
                 <FaArrowDown aria-hidden="true" />
               </a>
               <a
                 href="#prayer"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-[7px] border-2 border-gold/[0.52] bg-[#120d16]/[0.62] px-6 py-3 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_8px_20px_rgba(0,0,0,0.35)] transition hover:border-gold hover:bg-gold/[0.14] focus:outline-none focus:ring-2 focus:ring-gold sm:min-h-14 sm:px-8 sm:py-4"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-[7px] border-2 border-gold/[0.52] bg-[#120d16]/[0.62] px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.35)] transition hover:border-gold hover:bg-gold/[0.14] focus:outline-none focus:ring-2 focus:ring-gold sm:min-h-[3.25rem] sm:px-8 sm:py-4"
               >
                 <FaHandsPraying aria-hidden="true" />
                 Prayer Request
@@ -56,9 +56,9 @@ export function Hero() {
         </Reveal>
       </div>
 
-      <p className="absolute bottom-6 left-1/2 w-[min(90vw,56rem)] -translate-x-1/2 text-center text-sm font-semibold italic leading-6 text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.85)] sm:bottom-10 sm:text-xl sm:leading-7">
-        &quot;Let your light shine before others, that they may see your good deeds
-        <span className="block">and glorify your Father in heaven.&quot;</span>
+      <p className="absolute bottom-5 left-1/2 w-[min(90vw,48rem)] -translate-x-1/2 text-center text-xs font-semibold italic leading-5 text-[#fff8ec] drop-shadow-[0_3px_4px_rgba(0,0,0,0.85)] sm:bottom-8 sm:text-base sm:leading-6">
+        &quot;Let your light shine before others.&quot;
+        <span className="block sm:inline"> Matthew 5:16</span>
       </p>
     </section>
   );

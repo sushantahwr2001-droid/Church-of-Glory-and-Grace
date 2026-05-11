@@ -71,19 +71,19 @@ section {
 
 @layer components {
   .section-eyebrow {
-    @apply mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-gold-soft;
+    @apply mb-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-gold-soft sm:text-xs;
   }
 
   .section-title {
-    @apply text-[clamp(2.25rem,4vw,4.4rem)] font-semibold leading-[1.08] text-cream;
+    @apply max-w-3xl text-[clamp(1.7rem,3vw,3.05rem)] font-semibold leading-[1.15] text-cream;
   }
 
   .section-copy {
-    @apply mt-6 max-w-2xl text-lg leading-8 text-text-muted;
+    @apply mt-3 max-w-2xl text-[15px] leading-7 text-text-muted sm:text-base sm:leading-8;
   }
 
   .warm-panel {
-    @apply border border-white/[0.13] bg-[linear-gradient(145deg,rgba(255,242,223,0.09),rgba(217,162,58,0.05)_48%,rgba(14,11,19,0.22))] shadow-[0_24px_80px_rgba(0,0,0,0.22)];
+    @apply border border-white/[0.13] bg-[linear-gradient(145deg,rgba(255,242,223,0.09),rgba(217,162,58,0.05)_48%,rgba(14,11,19,0.22))] shadow-[0_18px_55px_rgba(0,0,0,0.18)];
   }
 
   .form-label {
@@ -99,7 +99,7 @@ section {
   }
 
   .footer-heading {
-    @apply text-sm font-semibold uppercase tracking-[0.22em] text-gold-soft;
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-gold-soft;
   }
 
   .footer-link {

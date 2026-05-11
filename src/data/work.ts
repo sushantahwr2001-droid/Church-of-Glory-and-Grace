@@ -11,9 +11,9 @@ export type WorkItem = {
 export const workItems: WorkItem[] = [
   {
     title: "Feeding the Hungry",
-    summary: "Food, essentials, and care for families in need.",
+    summary: "Food and daily essentials for families.",
     details:
-      "Through compassionate outreach, the foundation supports families with food, essential supplies, and prayerful care during difficult seasons.",
+      "We help families with food, daily essentials, and prayer when life becomes difficult.",
     image: {
       src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80",
       alt: "Hands offering food and care to a family in need"
@@ -21,9 +21,9 @@ export const workItems: WorkItem[] = [
   },
   {
     title: "Spreading the Gospel",
-    summary: "Sharing God's word with peace and humility.",
+    summary: "Prayer, worship, and God's word.",
     details:
-      "Our ministry shares messages of faith and hope through worship, gatherings, fellowship, and gentle one-to-one encouragement.",
+      "We share God's word through worship, prayer meetings, fellowship, and simple words of hope.",
     image: {
       src: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1200&q=80",
       alt: "An open Bible in warm light"
@@ -31,9 +31,9 @@ export const workItems: WorkItem[] = [
   },
   {
     title: "Supporting Families",
-    summary: "Standing with families through difficult days.",
+    summary: "Help for families in hard times.",
     details:
-      "We walk beside families with prayer, practical support, and a listening heart, helping them feel seen and strengthened.",
+      "We listen, pray, and stand beside families so they feel supported and not alone.",
     image: {
       src: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80",
       alt: "A family sitting together in a peaceful moment"
@@ -41,9 +41,9 @@ export const workItems: WorkItem[] = [
   },
   {
     title: "Building Communities",
-    summary: "Helping communities grow through faith and care.",
+    summary: "Care that brings people together.",
     details:
-      "Our work encourages unity, service, and shared responsibility so communities can grow with dignity, trust, and grace.",
+      "We encourage people to care for one another, serve together, and grow in faith.",
     image: {
       src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
       alt: "A caring community gathered together"

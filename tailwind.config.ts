@@ -10,14 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        deep: "#07111f",
-        soft: "#0d1b2e",
-        gold: "#d6a84f",
-        "gold-soft": "#f2d18b",
-        cream: "#f7efe2"
+        deep: "#0e0b13",
+        soft: "#1a1420",
+        gold: "#d9a23a",
+        "gold-soft": "#ffd78a",
+        cream: "#fff2df"
       },
       fontFamily: {
-        heading: ["var(--font-heading)"],
         body: ["var(--font-body)"]
       },
       boxShadow: {

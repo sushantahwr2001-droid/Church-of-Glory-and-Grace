@@ -26,24 +26,24 @@ export function Navbar() {
       }`}
     >
       <nav
-        className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8"
+        className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:h-[4.5rem] sm:px-8"
         aria-label="Primary navigation"
       >
-        <a href="#home" className="group flex items-center gap-3" onClick={closeMenu}>
-          <span className="grid h-11 w-11 place-items-center rounded-full border border-gold/[0.55] bg-gold/[0.14] text-lg font-semibold text-gold-soft shadow-[0_0_35px_rgba(217,162,58,0.18)]">
+        <a href="#home" className="group flex min-w-0 items-center gap-2.5" onClick={closeMenu}>
+          <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-gold/[0.55] bg-gold/[0.14] text-sm font-semibold text-gold-soft shadow-[0_0_35px_rgba(217,162,58,0.18)] sm:h-11 sm:w-11 sm:text-lg">
             CG
           </span>
-          <span className="leading-tight">
-            <span className="block max-w-[13rem] text-lg font-bold text-cream sm:max-w-none">
+          <span className="min-w-0 leading-tight">
+            <span className="block whitespace-nowrap text-[13px] font-bold text-cream min-[380px]:text-sm sm:text-lg">
               Church of Glory and Grace
             </span>
-            <span className="block text-xs uppercase tracking-[0.22em] text-gold-soft/[0.85]">
+            <span className="block whitespace-nowrap text-[10px] font-medium tracking-[0.06em] text-gold-soft/[0.88] sm:text-xs">
               Faith. Hope. Love.
             </span>
           </span>
         </a>
 
-        <div className="hidden items-center gap-7 lg:flex">
+        <div className="hidden items-center gap-5 lg:flex">
           {navItems.map((item) => (
             <a
               key={item.href}

@@ -7,21 +7,21 @@ export type VideoItem = {
 
 export const videos: VideoItem[] = [
   {
-    title: "November 10, 2024",
+    title: "Prayer Message",
     youtubeId: "f2FyBvcNRhw",
-    description: "Recent message from Pastor Seema's YouTube channel.",
-    publishedText: "23 views • 8 months ago"
+    description: "A message of prayer, faith, and encouragement.",
+    publishedText: "23 views - 8 months ago"
   },
   {
-    title: "November 10, 2024",
+    title: "Worship and Prayer",
     youtubeId: "OmC_D8pNnww",
-    description: "Recent worship and prayer video from the ministry.",
-    publishedText: "9 views • 8 months ago"
+    description: "A time of worship and prayer from the ministry.",
+    publishedText: "9 views - 8 months ago"
   },
   {
-    title: "August 21, 2025",
+    title: "Faith Fellowship",
     youtubeId: "3cehEz0nhhM",
-    description: "Recent fellowship video from Pastor Seema's channel.",
-    publishedText: "1 view • 8 months ago"
+    description: "A simple fellowship message for hope and strength.",
+    publishedText: "1 view - 8 months ago"
   }
 ];

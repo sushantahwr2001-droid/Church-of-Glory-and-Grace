@@ -61,31 +61,31 @@ export function DonateSection() {
   };
 
   return (
-    <section id="donate" className="px-5 py-16 sm:px-8 sm:py-24">
+    <section id="donate" className="px-5 py-14 sm:px-8 sm:py-20">
       <Reveal>
-        <div className="mx-auto max-w-7xl overflow-hidden rounded-[8px] border border-gold/[0.28] bg-[linear-gradient(135deg,rgba(217,162,58,0.3),rgba(255,242,223,0.08)_42%,rgba(42,17,25,0.88))] p-7 shadow-[0_26px_90px_rgba(0,0,0,0.26)] sm:p-10 lg:p-14">
-          <div className="grid gap-10 lg:grid-cols-[1fr_25rem] lg:items-center">
+        <div className="mx-auto max-w-7xl overflow-hidden rounded-[8px] border border-gold/[0.28] bg-[linear-gradient(135deg,rgba(217,162,58,0.3),rgba(255,242,223,0.08)_42%,rgba(42,17,25,0.88))] p-5 shadow-[0_26px_90px_rgba(0,0,0,0.26)] sm:p-8 lg:p-10">
+          <div className="grid gap-7 lg:grid-cols-[1fr_15rem] lg:items-center">
             <div>
               <p className="section-eyebrow">Support the Mission</p>
-              <h2 className="text-[clamp(2.25rem,4vw,4.4rem)] font-semibold leading-[1.08] text-cream">
-                Give with love. Help us serve with grace.
+              <h2 className="section-title">
+                Support this mission.
               </h2>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-text-muted">
+              <p className="section-copy">
                 {donationConfig.message}
               </p>
 
-              <div className="mt-9 grid gap-3 sm:flex">
+              <div className="mt-6 grid gap-3 sm:flex">
                 <button
                   type="button"
                   onClick={handlePrimaryDonate}
-                  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-gold px-7 py-4 text-base font-semibold text-[#201404] transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft"
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-base font-semibold text-[#201404] transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft"
                 >
                   <FaHandHoldingHeart aria-hidden="true" />
                   Donate Now
                 </button>
                 <a
                   href="#contact"
-                  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-gold/[0.45] bg-white/[0.08] px-7 py-4 text-base font-semibold text-cream transition hover:border-gold hover:bg-gold/[0.10] focus:outline-none focus:ring-2 focus:ring-gold"
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-gold/[0.45] bg-white/[0.08] px-6 py-3 text-base font-semibold text-cream transition hover:border-gold hover:bg-gold/[0.10] focus:outline-none focus:ring-2 focus:ring-gold"
                 >
                   <FaEnvelope aria-hidden="true" />
                   Contact Us
@@ -96,23 +96,23 @@ export function DonateSection() {
             <button
               type="button"
               onClick={() => setIsDonationOpen(true)}
-              className="group rounded-[8px] border border-white/[0.14] bg-[#120d16]/[0.62] p-5 text-left transition hover:border-gold/[0.62] focus:outline-none focus:ring-2 focus:ring-gold"
+              className="group mx-auto w-full max-w-[15rem] rounded-[8px] border border-white/[0.14] bg-[#120d16]/[0.62] p-4 text-left transition hover:border-gold/[0.62] focus:outline-none focus:ring-2 focus:ring-gold lg:max-w-none"
             >
-              <span className="flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.18em] text-gold-soft">
+              <span className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.16em] text-gold-soft">
                 <FaQrcode aria-hidden="true" />
                 Scan to Give
               </span>
-              <span className="mt-5 block rounded-[8px] bg-cream p-3">
+              <span className="mx-auto mt-4 block max-w-[9.5rem] rounded-[8px] bg-cream p-2">
                 <img
                   src={donationConfig.qrImage.src}
                   alt={donationConfig.qrImage.alt}
                   className="h-auto w-full rounded-[6px]"
                 />
               </span>
-              <span className="mt-4 block text-base font-semibold text-cream">
+              <span className="mt-4 block text-sm font-semibold text-cream">
                 UPI: {donationConfig.upiId}
               </span>
-              <span className="mt-2 block text-sm leading-6 text-text-muted">
+              <span className="mt-2 block text-xs leading-5 text-text-muted">
                 Tap to view all donation details.
               </span>
             </button>
@@ -125,9 +125,9 @@ export function DonateSection() {
         title="Donation Details"
         onClose={() => setIsDonationOpen(false)}
       >
-        <div className="grid gap-6 lg:grid-cols-[17rem_1fr]">
+        <div className="grid gap-6 lg:grid-cols-[10rem_1fr]">
           <div>
-            <div className="rounded-[8px] bg-cream p-3">
+            <div className="mx-auto max-w-[10rem] rounded-[8px] bg-cream p-2 lg:max-w-none">
               <img
                 src={donationConfig.qrImage.src}
                 alt={donationConfig.qrImage.alt}

@@ -67,14 +67,14 @@ export function PrayerForm() {
   };
 
   return (
-    <section id="prayer" className="relative overflow-hidden px-5 py-16 sm:px-8 sm:py-24">
-      <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.82fr_1.18fr]">
+    <section id="prayer" className="relative overflow-hidden px-5 py-14 sm:px-8 sm:py-20">
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.82fr_1.18fr]">
         <Reveal>
           <div className="lg:sticky lg:top-28">
             <p className="section-eyebrow">Prayer Request</p>
-            <h2 className="section-title">No prayer is too small. No burden is too heavy.</h2>
+            <h2 className="section-title">Send your prayer request.</h2>
             <p className="section-copy">
-              Share your request with us, and our prayer team will pray with you.
+              Share your need. Our prayer team will pray with you.
             </p>
           </div>
         </Reveal>
@@ -82,10 +82,10 @@ export function PrayerForm() {
         <Reveal delay={0.12}>
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="warm-panel rounded-[8px] p-6 sm:p-8"
+            className="warm-panel rounded-[8px] p-5 sm:p-7"
             noValidate
           >
-            <div className="grid gap-6 sm:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-2 sm:gap-5">
               <FormField
                 label="Full Name"
                 id="name"
@@ -117,7 +117,7 @@ export function PrayerForm() {
                   type: "email"
                 }}
               />
-              <label className="flex min-h-[4.7rem] items-center gap-3 rounded-[8px] border border-white/[0.14] bg-[#120d16]/[0.64] px-4 py-3 text-sm font-medium text-cream">
+              <label className="flex min-h-[4rem] items-center gap-3 rounded-[8px] border border-white/[0.14] bg-[#120d16]/[0.64] px-4 py-3 text-sm font-medium text-cream">
                 <input
                   type="checkbox"
                   className="h-5 w-5 rounded border-white/[0.30] bg-transparent text-gold focus:ring-gold"
@@ -127,13 +127,13 @@ export function PrayerForm() {
               </label>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-5">
               <label htmlFor="message" className="form-label">
                 Prayer Request Message
               </label>
               <textarea
                 id="message"
-                rows={7}
+                rows={5}
                 className="form-input resize-none"
                 placeholder="Share your request..."
                 {...register("message")}
@@ -155,7 +155,7 @@ export function PrayerForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="mt-7 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-gold px-7 py-4 text-base font-semibold text-[#201404] shadow-glow transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+              className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-gold px-7 py-3 text-base font-semibold text-[#201404] shadow-glow transition hover:bg-gold-soft focus:outline-none focus:ring-2 focus:ring-gold-soft disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
             >
               <FaPaperPlane aria-hidden="true" />
               Submit Request
