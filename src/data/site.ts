@@ -57,11 +57,11 @@ export const imageAssets = {
     alt: "A golden sunrise behind a simple cross, symbolizing hope and prayer"
   },
   prayer: {
-    src: "/assets/prayer-light.png",
-    alt: "Warm candlelight and folded hands in a quiet moment of prayer"
+    src: "/assets/testimony-prayer-hands.jpg",
+    alt: "Hands holding a candle in a quiet moment of prayer"
   },
   worship: {
-    src: "/assets/worship-light.png",
-    alt: "A peaceful worship gathering under warm evening light"
+    src: "/assets/hero-light-of-hope-desktop.jpg",
+    alt: "A peaceful cross at sunrise with warm golden light"
   }
 };
