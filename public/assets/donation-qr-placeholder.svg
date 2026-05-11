@@ -1,0 +1,40 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" rx="32" fill="#FFF8EC"/>
+  <rect x="30" y="30" width="660" height="660" rx="24" fill="#07111F"/>
+  <rect x="58" y="58" width="604" height="604" rx="18" fill="#FFF8EC"/>
+  <g fill="#07111F">
+    <rect x="94" y="94" width="150" height="150" rx="8"/>
+    <rect x="124" y="124" width="90" height="90" fill="#FFF8EC"/>
+    <rect x="147" y="147" width="44" height="44"/>
+    <rect x="476" y="94" width="150" height="150" rx="8"/>
+    <rect x="506" y="124" width="90" height="90" fill="#FFF8EC"/>
+    <rect x="529" y="147" width="44" height="44"/>
+    <rect x="94" y="476" width="150" height="150" rx="8"/>
+    <rect x="124" y="506" width="90" height="90" fill="#FFF8EC"/>
+    <rect x="147" y="529" width="44" height="44"/>
+    <rect x="292" y="96" width="38" height="38"/>
+    <rect x="358" y="96" width="76" height="38"/>
+    <rect x="292" y="162" width="104" height="38"/>
+    <rect x="292" y="228" width="38" height="76"/>
+    <rect x="358" y="266" width="38" height="38"/>
+    <rect x="424" y="266" width="38" height="76"/>
+    <rect x="292" y="358" width="76" height="38"/>
+    <rect x="424" y="358" width="76" height="38"/>
+    <rect x="556" y="292" width="38" height="104"/>
+    <rect x="94" y="292" width="104" height="38"/>
+    <rect x="226" y="292" width="38" height="104"/>
+    <rect x="292" y="424" width="38" height="104"/>
+    <rect x="358" y="424" width="104" height="38"/>
+    <rect x="490" y="424" width="38" height="38"/>
+    <rect x="556" y="424" width="70" height="38"/>
+    <rect x="292" y="556" width="104" height="38"/>
+    <rect x="424" y="490" width="38" height="104"/>
+    <rect x="490" y="490" width="136" height="38"/>
+    <rect x="556" y="556" width="38" height="70"/>
+    <rect x="358" y="622" width="38" height="38"/>
+    <rect x="490" y="622" width="38" height="38"/>
+  </g>
+  <rect x="178" y="319" width="364" height="84" rx="12" fill="#07111F"/>
+  <text x="360" y="352" text-anchor="middle" fill="#F2D18B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">ADD YOUR</text>
+  <text x="360" y="382" text-anchor="middle" fill="#FFF8EC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">DONATION QR</text>
+</svg>
