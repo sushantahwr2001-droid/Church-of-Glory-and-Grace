@@ -1,13 +1,25 @@
 import { About } from "@/components/About";
-import { DonateSection } from "@/components/DonateSection";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
-import { PrayerForm } from "@/components/PrayerForm";
-import { Testimonials } from "@/components/Testimonials";
-import { VideoSection } from "@/components/VideoSection";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { WorkSection } from "@/components/WorkSection";
+import dynamic from "next/dynamic";
+
+const WorkSection = dynamic(() =>
+  import("@/components/WorkSection").then((module) => module.WorkSection)
+);
+const VideoSection = dynamic(() =>
+  import("@/components/VideoSection").then((module) => module.VideoSection)
+);
+const Testimonials = dynamic(() =>
+  import("@/components/Testimonials").then((module) => module.Testimonials)
+);
+const PrayerForm = dynamic(() =>
+  import("@/components/PrayerForm").then((module) => module.PrayerForm)
+);
+const DonateSection = dynamic(() =>
+  import("@/components/DonateSection").then((module) => module.DonateSection)
+);
 
 export function PageShell() {
   return (

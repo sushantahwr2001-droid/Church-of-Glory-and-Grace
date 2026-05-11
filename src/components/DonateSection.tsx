@@ -61,7 +61,7 @@ export function DonateSection() {
   };
 
   return (
-    <section id="donate" className="px-5 py-24 sm:px-8">
+    <section id="donate" className="px-5 py-16 sm:px-8 sm:py-24">
       <Reveal>
         <div className="mx-auto max-w-7xl overflow-hidden rounded-[8px] border border-gold/[0.28] bg-[linear-gradient(135deg,rgba(217,162,58,0.3),rgba(255,242,223,0.08)_42%,rgba(42,17,25,0.88))] p-7 shadow-[0_26px_90px_rgba(0,0,0,0.26)] sm:p-10 lg:p-14">
           <div className="grid gap-10 lg:grid-cols-[1fr_25rem] lg:items-center">

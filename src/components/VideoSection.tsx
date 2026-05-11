@@ -11,14 +11,14 @@ export function VideoSection() {
   const [selectedVideo, setSelectedVideo] = useState<VideoItem | null>(null);
 
   return (
-    <section id="videos" className="relative overflow-hidden px-5 py-24 sm:px-8">
+    <section id="videos" className="relative overflow-hidden px-5 py-16 sm:px-8 sm:py-24">
       <div className="mx-auto max-w-7xl">
         <Reveal className="max-w-3xl">
           <p className="section-eyebrow">Watch & Be Blessed</p>
           <h2 className="section-title">Messages for worship, healing, and fellowship.</h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+        <div className="mt-9 grid auto-cols-[82%] grid-flow-col gap-4 overflow-x-auto pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden sm:mt-12 sm:grid-flow-row sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:pb-0 lg:grid-cols-3">
           {videos.map((video, index) => (
             <Reveal key={video.youtubeId} delay={index * 0.08}>
               <button
@@ -31,18 +31,18 @@ export function VideoSection() {
                     src={`https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`}
                     alt={`${video.title} YouTube thumbnail`}
                     fill
-                    sizes="(min-width: 1024px) 33vw, 100vw"
+                    sizes="(max-width: 639px) 82vw, (min-width: 1024px) 33vw, 50vw"
                     className="object-cover transition duration-700 group-hover:scale-105"
                   />
                   <span className="absolute inset-0 bg-[#120d16]/[0.28]" />
                   <span className="absolute inset-0 grid place-items-center">
-                    <span className="grid h-16 w-16 place-items-center rounded-full bg-gold text-2xl text-[#201404] shadow-glow transition group-hover:bg-gold-soft">
+                    <span className="grid h-12 w-12 place-items-center rounded-full bg-gold text-xl text-[#201404] shadow-glow transition group-hover:bg-gold-soft sm:h-16 sm:w-16 sm:text-2xl">
                       <FaCirclePlay aria-hidden="true" />
                     </span>
                   </span>
                 </span>
-                <span className="block p-6">
-                  <span className="text-2xl font-semibold text-cream">
+                <span className="block p-5 sm:p-6">
+                  <span className="text-xl font-semibold text-cream sm:text-2xl">
                     {video.title}
                   </span>
                   <span className="mt-3 block leading-7 text-text-muted">{video.description}</span>

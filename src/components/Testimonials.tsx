@@ -31,7 +31,7 @@ export function Testimonials() {
   return (
     <section
       id="testimonies"
-      className="bg-[linear-gradient(135deg,#fff4df_0%,#f8dfb8_48%,#fff8ec_100%)] px-5 py-24 text-[#23170e] sm:px-8"
+      className="bg-[linear-gradient(135deg,#fff4df_0%,#f8dfb8_48%,#fff8ec_100%)] px-5 py-16 text-[#23170e] sm:px-8 sm:py-24"
       aria-label="Voices of Faith testimonials"
     >
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">

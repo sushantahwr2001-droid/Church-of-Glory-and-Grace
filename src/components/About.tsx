@@ -2,7 +2,7 @@ import { Reveal } from "@/components/Reveal";
 
 export function About() {
   return (
-    <section id="about" className="relative overflow-hidden px-5 py-24 sm:px-8">
+    <section id="about" className="relative overflow-hidden px-5 py-16 sm:px-8 sm:py-24">
       <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-gold/[0.35] to-transparent" />
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <Reveal>

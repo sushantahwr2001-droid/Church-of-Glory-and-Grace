@@ -53,7 +53,7 @@ export const navItems = [
 
 export const imageAssets = {
   hero: {
-    src: "/assets/hero-light-of-hope-4k.png",
+    src: "/assets/hero-light-of-hope-desktop.jpg",
     alt: "A golden sunrise behind a simple cross, symbolizing hope and prayer"
   },
   prayer: {
